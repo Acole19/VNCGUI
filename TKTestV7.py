@@ -1,6 +1,6 @@
 import Tkinter
 from Tkinter import *
-from PIL import ImageTk, Image
+from PIL import Image
 import time
 root = Tk()
 root.canvas = Canvas(root, width=240, height = 242)
