@@ -29,6 +29,6 @@ def update():
         root.img = PhotoImage(file="GUIPRES5.pbm")
         root.canvas.itemconfig(root.imgArea, image = root.img)
         incre = 0
-    root.after(1000, update)
+    root.after(10000, update)
 root.after(0, update)
 root.mainloop()
