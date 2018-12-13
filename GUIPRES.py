@@ -25,7 +25,7 @@ def update():
     elif incre == 4:
         root.img = PhotoImage(file="GUIPRES4.pbm")
         root.canvas.itemconfig(root.imgArea, image = root.img)
-    else
+    else:
         root.img = PhotoImage(file="GUIPRES5.pbm")
         root.canvas.itemconfig(root.imgArea, image = root.img)
         incre = 0
