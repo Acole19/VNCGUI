@@ -1,5 +1,5 @@
 import Tkinter as tk
-from PIL import ImageTk, Image
+from PIL import Image
 
 
 root = tk.Tk()
